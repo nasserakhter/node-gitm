@@ -16,5 +16,5 @@ export default async function getCurrentBranch(ctx: GitInterface) {
     .trim();
 
   assert(currentBranch, 'Could not find current branch');
-  return currentBranch;
+  return ctx.branch(currentBranch);
 }
