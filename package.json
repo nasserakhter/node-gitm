@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "@types/node": "^18.15.11",
+    "chalk": "^5.2.0",
+    "eslint": ">=8.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "inquirer": "^9.1.5",
+    "prettier": "^2.8.7",
+    "ts-node": "^10.9.1",
+    "typescript": ">=4.4",
+    "which": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/which": "^3.0.0",
+    "@typescript-eslint/eslint-plugin": ">=5.57.0",
+    "@typescript-eslint/parser": ">=5.57.0",
+    "eslint-config-xo": "^0.43.1",
+    "eslint-config-xo-typescript": "^0.57.0"
+  },
+  "scripts": {
+    "start": "node --loader ts-node/esm --experimental-import-meta-resolve src/index.ts "
+  },
+  "name": "node-gitm",
+  "version": "1.0.0",
+  "description": "A simple git manager written in typescript",
+  "main": "src/index.ts",
+  "repository": "https://github.com/nasserakhter/node-gitm",
+  "author": "Nasser Akhter",
+  "license": "UNLICENSED"
+}
